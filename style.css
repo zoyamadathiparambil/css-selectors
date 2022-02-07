@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+div{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+div>img{
+    height: 75%;
+}
+#heading{
+    color: darkgreen;
+    margin-top: 10px;
+}
+div:hover{
+    background-color: lightgreen;
+}
+div:active{
+    background-color: darkgreen;
+}
+b{
+    color: cornflowerblue;
+}
